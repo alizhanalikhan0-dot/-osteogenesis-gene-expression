@@ -31,7 +31,33 @@ and which biological processes are consistently associated with this transition 
 
 ## Main findings
 
-[To be completed after the analysis]
+Preliminary analysis identified a clear transcriptional shift between
+undifferentiated cells at day 0 and cells undergoing osteogenic
+differentiation at days 7 and 14.
+
+Principal component analysis showed that PC1 explained 27.57% of the
+total variance and PC2 explained 15.14%. Day-0 samples were generally
+separated from day-7 and day-14 samples, while one day-14 sample from
+donor 7083 showed strong donor-specific variation.
+
+A cross-donor consistency analysis identified:
+
+- 1,215 consistently upregulated genes;
+- 736 consistently downregulated genes.
+
+The upregulated genes were enriched in biological processes related to
+osteogenesis, including ossification, osteoblast differentiation, bone
+mineralization, bone development, extracellular matrix organization,
+and cell adhesion. BMP- and Wnt-related signaling processes were also
+enriched.
+
+Inflammatory, cytokine-related, and lipid-metabolic processes were
+additionally enriched, indicating that osteogenic differentiation
+involves broader transcriptional changes beyond bone-related pathways.
+
+These findings are preliminary and will be complemented by the analysis
+of downregulated-gene enrichment, additional visualizations, and more
+formal statistical testing.
 
 ## Repository structure
 
