@@ -184,3 +184,36 @@ Important files include:
         ├── enrichment_downregulated_significant.csv
         ├── enrichment_upregulated_all.csv
         └── enrichment_upregulated_significant.csv
+
+
+## Limitations
+
+This project is an exploratory analysis based on a normalized expression
+matrix rather than raw sequencing reads.
+
+The main limitations are:
+
+- The analysis does not include raw FASTQ processing or read alignment.
+- The cross-donor consistency approach is not a replacement for formal
+  differential-expression modelling.
+- No complete statistical model accounting for donor effects was applied.
+- The gene lists were generated using exploratory fold-change and expression
+  thresholds.
+- Enrichment results depend on the selected gene sets and filtering criteria.
+- Low expression of some late osteogenic markers limits conclusions about
+  terminal differentiation and mineralization.
+- The day-14 sample from donor 7083 showed substantial donor-specific
+  variation.
+
+Future improvements could include formal differential-expression analysis
+using a model that accounts for donor pairing, multiple-testing correction,
+and additional validation using independent datasets or experimental
+measurements.
+
+## Reproducibility
+
+The analysis notebook and generated results are provided in this repository.
+
+The workflow can be reproduced by running the cells in the analysis notebook:
+
+[`GSE185951_analysis.ipynb`](GSE185951_analysis.ipynb)
